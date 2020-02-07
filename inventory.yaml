@@ -1,0 +1,14 @@
+# This is the Ansible inventory file for FreeSewing infrastructure
+
+local:
+  hosts:
+    localhost: {}
+
+all:
+  children:
+    master:
+      hosts:
+        backend.freesewing.org: {}
+    next:
+      hosts:
+        next.backend.freesewing.org: {}
