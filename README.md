@@ -56,6 +56,10 @@ our example) you should always limit the play  to either `master` or `next` beca
 ## Playbooks
 
  - `install_updates.yaml`: Install the latest OS updates
+ - `backup_mongo.yaml`: Manually trigger a backup of the mongo database
+ - `schedule_daily_mongo_backup.yaml`: Schedule a daily cron job to backup the mongo database
+ - `clone_production_database.yaml`: Clones the production `freesewing` database into the `next_freesewing` database
+ - `migrate_data_for_2.2.yaml`: Migrates data and data structure from 2.1 to 2.2 (run this after cloning the database)
 
 ## About FreeSewing 💀
 

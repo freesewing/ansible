@@ -8,7 +8,10 @@ all:
   children:
     master:
       hosts:
-        backend.freesewing.org: {}
+        backend.freesewing.org:
+          db: freesewing
     next:
       hosts:
-        next.backend.freesewing.org: {}
+        next.backend.freesewing.org:
+          db: next_freesewing
+
