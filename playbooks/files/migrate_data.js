@@ -56,6 +56,9 @@ db.recipes.drop()
 // The 'recipe' field in the collection is now called 'data'
 db.patterns.updateMany({}, {$rename: {'recipe': 'data'}})
 
+// The 'data.pattern' field in the collection is now called 'data.design'
+db.patterns.updateMany({}, {$rename: {'data.pattern': 'data.design'}})
+
 // The shoulderSlope measurement is now different, so we need to remove it
 // Leaving it or removing it, both will break the draft if recreated with this
 // measurment data, but a missing measurement is easier to troubleshoot
