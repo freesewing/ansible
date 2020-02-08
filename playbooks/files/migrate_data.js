@@ -51,6 +51,7 @@ db.recipes.aggregate([
   }},
   { "$out": "patterns" }
 ])
+db.recipes.drop()
 
 // The 'recipe' field in the collection is now called 'data'
 db.patterns.updateMany({}, {$rename: {'recipe': 'data'}})
