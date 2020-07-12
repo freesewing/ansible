@@ -34,19 +34,19 @@ These playbooks only apply to our backend system, as our frontend is hosted by N
 To run a playbook, use the following command structure:
 
 ```bash
-ansible-playbook -i inventory.yaml -l master playbooks/install_updates.yaml
+ansible-playbook -i inventory.yaml -l main playbooks/install_updates.yaml
 ```
 
 Where
 
  - The `-i` switch tells Ansible what inventory file to use.
  - The `-l` switch limites the play to a group of hosts. 
- You can pick `master` or `next` here. If you leave it out, it will apply to both.
+ You can pick `main` or `next` here. If you leave it out, it will apply to both.
  - The last paramter is the path to the playbook to run
 
 Keep in mind that while we have 2 hosts in our inventory, in reality they run on the same VM.
 So when you launch a playbook that does things on the OS level (such as installing updates in
-our example) you should always limit the play  to either `master` or `next` because:
+our example) you should always limit the play  to either `main` or `next` because:
 
  - There's no point running it twice on the same machine
  - There will be conflicts as teh plays are ran in parallel, 

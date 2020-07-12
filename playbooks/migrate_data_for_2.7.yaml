@@ -16,7 +16,7 @@
         owner: root
         group: root
         mode: '0755'
-    - name: Migrate 2.1 data to 2.2
+    - name: Migrate 2.6 data to 2.7
       shell: "mongo next_freesewing {{tmp}}/migrate_data.js"
 
 
