@@ -10,15 +10,15 @@
   ><img src="https://img.shields.io/badge/%F3%A0%80%A0-Follow%20us-blue.svg?logo=twitter&logoColor=white&logoWidth=15"
   alt="Follow @freesewing_org on Twitter"/>
   </a><a
-  href="https://freesewing.org/patrons/join"
-  title="Become a FreeSewing Patron"
-  ><img src="https://img.shields.io/badge/%F3%A0%80%A0-Support%20us-blueviolet.svg?logo=cash-app&logoColor=white&logoWidth=15"
-  alt="Become a FreeSewing Patron"/>
-  </a><a
   href="https://instagram.com/freesewing_org"
   title="Follow @freesewing_org on Twitter"
   ><img src="https://img.shields.io/badge/%F3%A0%80%A0-Follow%20us-E4405F.svg?logo=instagram&logoColor=white&logoWidth=15"
   alt="Follow @freesewing_org on Twitter"/>
+  </a><a
+  href="https://freesewing.org/patrons/join"
+  title="Become a FreeSewing Patron"
+  ><img src="https://img.shields.io/badge/%F3%A0%80%A0-Support%20us-blueviolet.svg?logo=cash-app&logoColor=white&logoWidth=15"
+  alt="Become a FreeSewing Patron"/>
   </a></p>
 
 ## What am I looking at? 🤔
