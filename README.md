@@ -1,14 +1,14 @@
 ![FreeSewing](https://freesewing.org/banner.jpg)
 <p align='center'><a
-  href="https://twitter.com/freesewing_org"
-  title="Follow @freesewing_org on Twitter"
-  ><img src="https://img.shields.io/badge/%F3%A0%80%A0-Follow%20us-blue.svg?logo=twitter&logoColor=white&logoWidth=15"
-  alt="Follow @freesewing_org on Twitter"/>
-  </a><a
   href="https://chat.freesewing.org"
   title="Chat with us on Discord"
   ><img src="https://img.shields.io/discord/698854858052075530?label=Chat%20on%20Discord"
   alt="Chat with us on Discord"/>
+  </a><a
+  href="https://twitter.com/freesewing_org"
+  title="Follow @freesewing_org on Twitter"
+  ><img src="https://img.shields.io/badge/%F3%A0%80%A0-Follow%20us-blue.svg?logo=twitter&logoColor=white&logoWidth=15"
+  alt="Follow @freesewing_org on Twitter"/>
   </a><a
   href="https://freesewing.org/patrons/join"
   title="Become a FreeSewing Patron"
