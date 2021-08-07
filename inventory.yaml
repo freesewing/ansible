@@ -14,4 +14,8 @@ all:
       hosts:
         next.backend.freesewing.org:
           db: next_freesewing
+    2022:
+      hosts:
+        maze.backend.freesewing.org:
+          db: freesewing
 
